@@ -1,22 +1,27 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "node learning",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zmudzkikamil/node-learning.git"
-  },
-  "keywords": [
-    "node"
-  ],
-  "author": "zmudzkikamil",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zmudzkikamil/node-learning/issues"
-  },
-  "homepage": "https://github.com/zmudzkikamil/node-learning#readme"
+	"name": "node",
+	"version": "1.0.0",
+	"description": "node learning",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zmudzkikamil/node-learning.git"
+	},
+	"keywords": [
+		"node"
+	],
+	"author": "zmudzkikamil",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zmudzkikamil/node-learning/issues"
+	},
+	"homepage": "https://github.com/zmudzkikamil/node-learning#readme",
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	}
 }
